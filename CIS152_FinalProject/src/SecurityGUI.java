@@ -136,8 +136,8 @@ public class SecurityGUI implements ActionListener {
 						
 		//Setting correct priority, based on checking box (or not check box) for "New"
 		if(newEmp.isSelected()) {
-			//"N" sets the priority for a new employee.
-			empPri = "N" + ":" + dateStamp;
+			//"A" sets the priority for a new employee.
+			empPri = "A" + ":" + dateStamp;
 		}
 		else {
 			//"C" sets the priority for a current employee.
